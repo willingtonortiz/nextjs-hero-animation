@@ -1,0 +1,21 @@
+.product-container {
+  height: 800px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.product-detail {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-detail__image {
+  position: relative;
+  width: 100vw;
+  height: 600px;
+}
